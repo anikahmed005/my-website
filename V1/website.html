@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/c74f5f2edb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main--container">
+        <header>
+            <img src="Aniklogo.png" class="logo" alt="" srcset="">
+        </header>
+
+        <canvas id='floatingbubbles'></canvas>
+
+        <div class="heading--container">
+            <h1>Hello! I am Anik Ahmed & I am a
+                <span class="txt-rotate" data-period="2000"
+                    data-rotate='[ "UX designer.", "techie.", "creative.", "NBA fanatic", "student." ]'>
+                </span>
+            </h1>
+        </div>
+
+        <div id="content-container">
+            <h3>
+                MY Work
+            </h3>
+            <div class="content-showcase">
+                <div class="column1">
+                    <img src="mockup-adw.jpg" class="ux-adw" alt="" srcset="">
+                    <span class="photobox-label">Hello</span>
+                </div>
+                <h5>
+                    Adwork <span> - </span> 2018 <span> - </span> - UX
+                </h5>
+            </div>
+        </div>
+
+        <footer class="container-footer" data-aos="slide-up">
+            <div class="tagline">
+                <b>
+                    Powering
+                    <!-- space -->
+                    <i class="fa fa-battery-charging" aria-hideen="true"></i> new ideas through <span class="keywords">
+                        intelligence, elegance, & creativity
+                </b>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+
+    <div class="container-icon">
+        <a href="mailto:AnikAhmedUX@gmail.com" class="material-icons"</a>
+            <i class="material-icons">
+                email
+            </i>
+        </a>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0,
+            duration: 800,
+            delay: 150,
+            easing: 'ease-out-back',
+        });
+    </script>
+</body>
+
+<script src="website.js"></script>
+
+</html>
